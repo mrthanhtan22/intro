@@ -1,5 +1,5 @@
 body{
-	margin-bottom: 20px;
+	
 	font-family: 'Roboto Slab', serif;
 	text-align: justify;
 }
@@ -43,7 +43,7 @@ body{
 	border-bottom: 4px solid #f21509;
 }
 .dichvu{
-	border-bottom: 4px solid #f6f6f6;
+	border-bottom: 4px solid #8f8f8f;
 	background-color: #f6f6f6;
 }
 .dichvu:hover{
@@ -73,4 +73,71 @@ body{
 	font-size: 25px;
 	color: red;
 	text-transform: uppercase;
+}
+.choose{height: 500px;
+}
+.list{
+	 list-style-type: none;
+	 list-style-position:inside;
+	 line-height: 2em;
+	 letter-spacing: 0px;
+	 text-align: left !important;
+	 margin-left: -40px; 
+}
+.bg-footer .list{
+	margin-top: 0px !important;
+	margin-left: 0px !important; 
+
+}
+.bg-footer, .glyphicon-menu-right{
+	background-color: #62bdbd;
+	color: #fff !important;
+}
+.bg-footer .fa{
+	font-size: 35px !important;
+}
+.bg-footer .fa:hover{
+	color: #000;
+	background-color: #62bdbd;
+}
+.list .glyphicon{ color: red; }
+.bg-contact{background-color:#026666;}
+.navbar {
+    margin-bottom: 0;
+    background-color: #62bdbd;
+    opacity: 0.8;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+   
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #e2534b !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:5px; 
+	position:fixed;
+	top:450px;
+	right:5px;
+	display:none;
+	background: url(../img/backtotop.png) no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
 }
